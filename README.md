@@ -21,7 +21,7 @@ More details in [raptors_animation repository](https://github.com/imjakedaniels/
 ## Animating Chatter throughout the course of a Leafs Game
 
 <p align="center">
-  <img src="https://github.com/imjakedaniels/animated_leafs_graphs/blob/master/animations/leafs-vancouver-canucks-2020-02-29.gif">
+  <img src="https://github.com/imjakedaniels/animated_leafs_graphs/blob/master/animations/twitter_reddit-leafs-tampa-bay-lightning-2020-03-10.gif">
 </p>
 
 More details in [animated_leafs repository](https://github.com/imjakedaniels/animated_leafs_graphs)
