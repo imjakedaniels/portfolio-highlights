@@ -1,6 +1,6 @@
-# Jake's Porfolio
+# Jake's Visual Portfolio
 
-Below are some of my past visuals, reports, and projects. 
+Below are some of my past visuals, reports, and projects.
 
 ## Scraping & animating a basketball game using {rvest} & {gganimate} 
 
