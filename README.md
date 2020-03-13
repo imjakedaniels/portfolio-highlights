@@ -77,7 +77,7 @@ Inspired by Instagram's boomerang posts. I can create bar charts that behave sim
 
 ## Final Report for Duke's Open Intro Statistics using RMarkdown
 
-Explores three interestnig conditional probabilities between attributes in three datasets.
+Explores three interesting conditional probabilities between attributes in three datasets.
 
 Presented in a RMarkdown Notebook using Markdown to weave stylized text to provide context on ggplot2 charts. 
 https://github.com/imjakedaniels/open-intro-stats-project/blob/master/BRFSS_final_report.Rmd
