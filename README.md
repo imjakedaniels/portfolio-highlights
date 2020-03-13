@@ -35,7 +35,7 @@ Notebook in [animated_leafs repository](https://github.com/imjakedaniels/animate
 
 ## Bloomberg Climate Change Animation
 
-Recreating a Bloomberg visualization on Climate Change with gganimate. Using a 5-year moving average to remove volatility on the label. Along with an annotation at the end of the gif.
+Recreating a Bloomberg visualization on Climate Change with gganimate. Using a 5-year moving average to remove volatility on the label. Along with an annotation at the end of the gif. 
 
 Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 
@@ -43,11 +43,11 @@ Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
   <img src="https://github.com/imjakedaniels/bloomberg_climate_animation/blob/master/animations/bloomberg_orginal.gif">
 </p>
 
-Notebook in [bloomberg_climate_animation](https://github.com/imjakedaniels/portfolio-highlights/)
+Notebook (and moving version if yours doesn't replay) in [bloomberg_climate_animation](https://github.com/imjakedaniels/portfolio-highlights/) repo.
 
 ## Visualizing political discourse off Medium.com every week
 
-Scraping articles tagged "politics" off Medium with a scraper I made. Tokenizing articles and using pairwise correlations to create node networks that present latent groupings of topics from that week. Below are from Jan 26th 2020 to Feb 1st 2020.
+Scraping articles tagged "politics" off Medium with a scraper I made. Tokenizing full-text off articles and using pairwise correlations to create node networks that present latent groupings of topics from that week. Below are from Jan 26th 2020 to Feb 1st 2020.
 
 I believe Buttigieg had just won Iowa Caucus. Joe Rogan endorsed Bernie. The UK officially Brexited.
 
