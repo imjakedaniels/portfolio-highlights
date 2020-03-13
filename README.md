@@ -43,7 +43,7 @@ Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
   <img src="https://github.com/imjakedaniels/bloomberg_climate_animation/blob/master/animations/bloomberg_orginal.gif">
 </p>
 
-Notebook (and moving version if yours doesn't replay) in [bloomberg_climate_animation](https://github.com/imjakedaniels/portfolio-highlights/) repo.
+Notebook (and moving version if yours doesn't replay) in [bloomberg_climate_animation](https://github.com/imjakedaniels/bloomberg_climate_animation) repo.
 
 ## Visualizing political discourse off Medium.com every week
 
