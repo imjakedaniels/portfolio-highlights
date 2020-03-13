@@ -38,3 +38,22 @@ Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 
 Notebook in [bloomberg_climate_animation](https://github.com/imjakedaniels/portfolio-highlights/)
 
+## Visualizing political discourse off Medium.com every week
+
+Scraping articles tagged "politics" off Medium with a scraper I made. Tokenizing articles and using pairwise correlations to create node networks that present latent groupings of topics from that week. Below are from Jan 26th 2020 to Feb 1st 2020.
+
+### Trending Network
+
+Based on geometric claps generated.
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/visualizing_politics/blob/master/visuals/trending_politics_network%202020-01-26%202020-02-01%20.png">
+</p>
+
+### Volume Network
+
+Basesd on mention volume.
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/visualizing_politics/blob/master/visuals/volume_politics_network%202020-01-26%202020-02-01%20.png">
+</p>
