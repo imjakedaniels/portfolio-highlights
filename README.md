@@ -74,3 +74,13 @@ Inspired by Instagram's boomerang posts. I can create bar charts that behave sim
 <p align="center">
   <img src="https://github.com/imjakedaniels/boomerang_charts/blob/master/animations/residency_animation.gif">
 </p>
+
+## Final Report for Duke's Open Intro Statistics using RMarkdown
+
+Explores three interestnig conditional probabilities between attributes in three datasets.
+
+Presented in a RMarkdown Notebook using Markdown to weave stylized text to provide context on ggplot2 charts. 
+https://github.com/imjakedaniels/open-intro-stats-project/blob/master/BRFSS_final_report.Rmd
+
+Download the html below to see the rendered version.
+https://github.com/imjakedaniels/open-intro-stats-project/blob/master/BRFSS_final_report.html
