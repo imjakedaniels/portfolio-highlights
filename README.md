@@ -25,3 +25,16 @@ More details in [raptors_animation repository](https://github.com/imjakedaniels/
 </p>
 
 More details in [animated_leafs repository](https://github.com/imjakedaniels/animated_leafs_graphs)
+
+## Bloomberg Climate Change Animation
+
+Recreating a Bloomberg visualization on Climate Change using their data.
+
+Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/bloomberg_climate_animation/blob/master/animations/bloomberg_orginal.gif">
+</p>
+
+Notebook in [bloomberg_climate_animation](https://github.com/imjakedaniels/portfolio-highlights/)
+
