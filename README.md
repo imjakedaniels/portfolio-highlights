@@ -213,6 +213,15 @@ Inspired by Instagram's boomerang posts. I can create bar charts that behave sim
 
 I uploaded the orientation schedule below into [ColourMind](http://colormind.io/image/) to get colour palette for Ryerson's Frosh Week.
 
-Here are the results:
+I scraped tweets that used their hashtag #RoadToRyerson
+
+I made a colour-themed wordcloud for them.
 
 ![Ryerson Orientation Schedule](https://github.com/imjakedaniels/Spirited-WordCloud/blob/master/Final%20Visual/ryerson_wordcloud.png?raw=true "Ryerson Orientation Schedule")
+
+
+# Summary
+
+I like to get data from the wild and create unique visuals to tell the story. I love animations.
+
+I mainly use R for scraping, cleaning and visualizing—but use SQL/Python if needed!
