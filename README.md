@@ -66,3 +66,11 @@ Based on mention volume.
 <p align="center">
   <img src="https://github.com/imjakedaniels/visualizing_politics/blob/master/visuals/volume_politics_network%202020-01-26%202020-02-01%20.png">
 </p>
+
+## Animated Boomerang Charts
+
+Inspired by Instagram's boomerang posts. I can create bar charts that behave similarly (just as cool maybe). They can show stark contrasts based on different attributes. Below compares survey responses from three locations.
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/boomerang_charts/blob/master/animations/residency_animation.gif">
+</p>
