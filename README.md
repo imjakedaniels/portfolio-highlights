@@ -18,6 +18,18 @@ I got 1500 upvotes on Reddit for an earlier version of this chart: https://www.r
 
 Notebook in [raptors_animation repository](https://github.com/imjakedaniels/raptors_animation)
 
+## Bloomberg Climate Change Animation
+
+Recreating a Bloomberg visualization on Climate Change with gganimate. Using a 5-year moving average to remove volatility on the label. Along with an annotation at the end of the gif. 
+
+Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/bloomberg_climate_animation/blob/master/animations/bloomberg_orginal.gif">
+</p>
+
+Notebook (and moving version if yours doesn't replay) in [bloomberg_climate_animation](https://github.com/imjakedaniels/bloomberg_climate_animation) repo.
+
 ## Animating Chatter throughout the course of a Leafs Game
 
 I post these on r/Leafs subreddit. It uses TF-IDF to determine the most popular word on Twitter and Reddit every 2 minutes. 
@@ -32,18 +44,6 @@ It leverages the @MapleLeafs twitter account for posting "game start" "goals" an
 </p>
 
 Notebook in [animated_leafs repository](https://github.com/imjakedaniels/animated_leafs_graphs)
-
-## Bloomberg Climate Change Animation
-
-Recreating a Bloomberg visualization on Climate Change with gganimate. Using a 5-year moving average to remove volatility on the label. Along with an annotation at the end of the gif. 
-
-Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
-
-<p align="center">
-  <img src="https://github.com/imjakedaniels/bloomberg_climate_animation/blob/master/animations/bloomberg_orginal.gif">
-</p>
-
-Notebook (and moving version if yours doesn't replay) in [bloomberg_climate_animation](https://github.com/imjakedaniels/bloomberg_climate_animation) repo.
 
 ## Churn Management Program - Ryerson Capstone Project
 
