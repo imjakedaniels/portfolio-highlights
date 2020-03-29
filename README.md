@@ -185,15 +185,15 @@ This all will showcase my ability to optimize and compare classification models 
 
 The Churn Management Program is projected to retain $7,831,250 from a sample of 500,000 customers when offering a $50 rebate at 50c cost to communicate to the 5% likeliest-to-churn customer as predicted by our Random Forest Model at a 30% success rate. The success rate effectiveness will depend on the campaign (e-mail or telemarketing) incorporating friendlier trends into the offer to lower the customer's likelihood to churn. Ex. Increase their phone usage, tie the discount to monthly terms, or offer new product at reduced rate.
 
-## Final Report for Duke's Open Intro Statistics using RMarkdown
+## COVID-19 Unemployment Spike
 
-Explores three interesting conditional probabilities between attributes in three datasets.
+"Siri, show me what an outlier looks like." <br>
+_"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims Report"_
 
-Presented in a RMarkdown Notebook using Markdown to weave stylized text to provide context on ggplot2 charts. 
-https://github.com/imjakedaniels/open-intro-stats-project/blob/master/BRFSS_final_report.Rmd
 
-Download the html below to see the rendered version.
-https://github.com/imjakedaniels/open-intro-stats-project/blob/master/BRFSS_final_report.html
+<p align="center">
+  <img src="https://github.com/imjakedaniels/covid_unemployment_spike/blob/master/visuals/ICSA_pandemic_spike.gif">
+</p>
 
 ## Visualizing political discourse off Medium.com every week
 
@@ -215,16 +215,6 @@ Size of text based on absolute mention volume.
 
 <p align="center">
   <img src="https://github.com/imjakedaniels/visualizing_politics/blob/master/visuals/volume_politics_network%202020-01-26%202020-02-01%20.png">
-</p>
-
-## COVID-19 Unemployment Spike
-
-"Siri, show me what an outlier looks like." <br>
-_"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims Report"_
-
-
-<p align="center">
-  <img src="https://github.com/imjakedaniels/covid_unemployment_spike/blob/master/visuals/ICSA_pandemic_spike.gif">
 </p>
 
 ## Animated Boomerang Charts
