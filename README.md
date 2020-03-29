@@ -217,6 +217,16 @@ Size of text based on absolute mention volume.
   <img src="https://github.com/imjakedaniels/visualizing_politics/blob/master/visuals/volume_politics_network%202020-01-26%202020-02-01%20.png">
 </p>
 
+## COVID-19 Unemployment Spike
+
+"Siri, show me what an outlier looks like." <br>
+_"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims Report"_
+
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/covid_unemployment_spike/blob/master/visuals/ICSA_pandemic_spike.gif">
+</p>
+
 ## Animated Boomerang Charts
 
 Inspired by Instagram's boomerang posts. I can create bar charts that behave similarly (just as cool maybe). They can show stark contrasts based on different attributes. Below compares survey responses from three locations.
@@ -224,17 +234,6 @@ Inspired by Instagram's boomerang posts. I can create bar charts that behave sim
 <p align="center">
   <img src="https://github.com/imjakedaniels/boomerang_charts/blob/master/animations/residency_animation.gif">
 </p>
-
-## Spirited WordCloud
-
-I uploaded the orientation schedule below into [ColourMind](http://colormind.io/image/) to get colour palette for Ryerson's Frosh Week.
-
-I scraped tweets that used their hashtag #RoadToRyerson
-
-I made a colour-themed wordcloud for them.
-
-![Ryerson Orientation Schedule](https://github.com/imjakedaniels/Spirited-WordCloud/blob/master/Final%20Visual/ryerson_wordcloud.png?raw=true "Ryerson Orientation Schedule")
-
 
 # Summary
 
