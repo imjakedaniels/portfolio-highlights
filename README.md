@@ -46,6 +46,17 @@ Article here: https://www.bloomberg.com/graphics/2015-whats-warming-the-world/
 
 Notebook (and moving version if yours doesn't replay) in [bloomberg_climate_animation](https://github.com/imjakedaniels/bloomberg_climate_animation) repo.
 
+## COVID-19 Unemployment Spike
+
+"Siri, show me what an outlier looks like." <br>
+_"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims Report"_
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/covid_unemployment_spike/blob/master/visuals/ICSA_pandemic_spike.gif">
+</p>
+
+https://github.com/imjakedaniels/covid_unemployment_spike
+
 ## Animating Chatter throughout the course of a Leafs Game
 
 I post these on r/Leafs subreddit. It uses TF-IDF to determine the most popular word on Twitter and Reddit every 2 minutes. 
@@ -63,9 +74,7 @@ Notebook in [animated_leafs repository](https://github.com/imjakedaniels/animate
 
 ## Churn Management Program - Ryerson Capstone Project
 
-This project aims to develop a statistically stronger classification model to predict customer churn compared to a standard, non-dimensionality-reduced, logistic-regression model. I will visualize the trends responsible for increasing the propensity to churn then calculate the Lifetime Value of a Customer (LVC) and lift to budget a Churn Management Program centred around targeting false-positive customers who are at-risk to churn and suggest solutions that can help reduce the risk.
-
-I will make a better model by performing various dimensionality-reduction techniques to handle NA values, outliers and extreme values to reduce the number of rows in my dataset then normalize the numeric values.  I will reduce the number of variables by removing them based on results from near-zero variance, multi-colinearity, information-gain, and Boruta importance. This will generate a condensed dataset to train a mixture or models using R, Caret and Weka. I will calculate the gain difference between my model and a basic, untouched model to find the real dollar difference my improved model brings to the company.
+This project aims to develop a statistically stronger classification model to predict customer churn compared to a standard, non-dimensionality-reduced, logistic-regression model.
 
 **Part 1)** 
 I will be splitting the data into subsets relating to Billing, Customer, CustService, Product, Operations and Service using R and exporting them by writing a script from MySQLWorkbench to a MySQL cloud-server hosted on AWS. 
@@ -144,28 +153,10 @@ write_csv(tele, "tele.csv")
 **Part 3)** 
 I will reduce the dimensions of the data using techniques that look at reducing rows by normalizing the data into z-scores and removing those which test in the 99% confidence of being an outlier. I will reduce the number of variables in half with techniques which examine high multicolinearity, near-zero variance, low information-gain and low Boruta importance. This increases the accuracies while reducing the computation time required.
 
-```
-removed1 <- low_variance
-
-removed2 <- churn_infogain %>%
-  filter(churn_wekainfo <0.0002) %>%
-  select(variable) %>%
-  unlist()
-```
 ![Weka info-gain](https://github.com/imjakedaniels/ryersoncapstone/blob/master/3%20Dimensionality%20Reduction/Reduction%20Visuals/weka%20-%20infogain_importance.png?raw=true)
 
-```
-removed3 <- names(boruta_output$finalDecision[boruta_output$finalDecision %in% "Rejected"]) 
-
-nums <- unlist(lapply(final_set, is.numeric)) 
-caret_high_correlation<- preProcess(x=final_set[,nums], method = c("corr"))
-
-removed4 <- caret_high_correlation$method$remove
-removed5 <- caret_high_correlation$method$ignore
-```
 **Part 3)** 
 I will reduce the dimensions of the data using techniques that look at reducing rows by normalizing the data into z-scores and removing those which test in the 99% confidence of being an outlier. I will reduce the number of variables in half with techniques which examine high multicolinearity, near-zero variance, low information-gain and low Boruta importance. This increases the accuracies while reducing the computation time required.
-
 
 **Part 4)**
 I will then train, validate and compare classification methods with R, using the following models: base R's Logistic Regression, Caret's 10-Fold Logistic Regression, Caret's Gradient Boost Machine, Weka's LogitBoost, Weka's Naive Bayes, and Weka's Random Forest models and evaluate the best model based on AUC, Lift and False-Positive Rate. I can then evaluate the projected revenue earned by my Churn Management Program which targets the top 5% of predicted-to-chun customers with a $50 rebate aimed to retain 30%. This is why a strong lift and low false-positive rate benefit the goal of the Churn Management Program. 
@@ -185,15 +176,15 @@ This all will showcase my ability to optimize and compare classification models 
 
 The Churn Management Program is projected to retain $7,831,250 from a sample of 500,000 customers when offering a $50 rebate at 50c cost to communicate to the 5% likeliest-to-churn customer as predicted by our Random Forest Model at a 30% success rate. The success rate effectiveness will depend on the campaign (e-mail or telemarketing) incorporating friendlier trends into the offer to lower the customer's likelihood to churn. Ex. Increase their phone usage, tie the discount to monthly terms, or offer new product at reduced rate.
 
-## COVID-19 Unemployment Spike
+## [@laidoffbot](https://twitter.com/layoffbot) Unemployment Visual for Nick Swartz
 
-"Siri, show me what an outlier looks like." <br>
-_"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims Report"_
-
+Discovering dates of significance when people tweeted "I just got laid off" "I was just laid off".
 
 <p align="center">
-  <img src="https://github.com/imjakedaniels/covid_unemployment_spike/blob/master/visuals/ICSA_pandemic_spike.gif">
+  <img src="https://github.com/imjakedaniels/layoffbot_timeseries/blob/master/covid_tracking_log10.png">
 </p>
+
+https://github.com/imjakedaniels/layoffbot_timeseries
 
 ## Visualizing political discourse off Medium.com every week
 
