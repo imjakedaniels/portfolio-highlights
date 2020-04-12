@@ -57,6 +57,16 @@ _"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims
 
 https://github.com/imjakedaniels/covid_unemployment_spike
 
+## Animating 2020 daily average gas price in Toronto
+
+Gas prices drop in response to COVID-19 consequences.
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/gasoline_toronto/blob/master/visuals/toronto_gas.gif">
+</p>
+
+https://github.com/imjakedaniels/gasoline_toronto/
+
 ## Animating Chatter throughout the course of a Leafs Game
 
 I post these on r/Leafs subreddit. It uses TF-IDF to determine the most popular word on Twitter and Reddit every 2 minutes. 
