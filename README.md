@@ -196,6 +196,16 @@ Discovering dates of significance when people tweeted "I just got laid off" "I w
 
 https://github.com/imjakedaniels/layoffbot_timeseries
 
+## Physical Distancing Tickets in Toronto
+
+Looking at how many and when people are penalized for not respecting social distancing.
+
+<p align="center">
+  <img src="https://github.com/imjakedaniels/physical_distance_tickets_toronto/blob/master/visuals/tickets_issued_plot.png">
+</p>
+
+https://github.com/imjakedaniels/physical_distance_tickets_toronto/
+
 ## Visualizing political discourse off Medium.com every week
 
 Scraping articles tagged "politics" off Medium with a scraper I made. Tokenizing full-text off articles and using pairwise correlations to create node networks that present latent groupings of topics from that week. Below are from Jan 26th 2020 to Feb 1st 2020.
