@@ -57,6 +57,15 @@ _"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims
 
 https://github.com/imjakedaniels/covid_unemployment_spike
 
+
+
+WebPage here:
+<p align="center">
+  <img src="https://github.com/imjakedaniels/blm-trends/blob/master/BLM_app_view.gif">
+</p>
+https://imjakedaniels.shinyapps.io/blm_app/
+
+
 ## Animating 2020 daily average gas price in Toronto
 
 Gas prices drop in response to COVID-19 consequences.
