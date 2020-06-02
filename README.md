@@ -57,14 +57,19 @@ _"Sure, here is this week's chart of the US Unemployment Insurance Weekly Claims
 
 https://github.com/imjakedaniels/covid_unemployment_spike
 
+## #BlackLivesMatter Interactive Web Page
 
+Built an interactive Shiny App: https://imjakedaniels.shinyapps.io/blm_app/
 
-WebPage here:
+I sampled tweets from the top 50 Twitter Trends every hour using {rtweet} since May 7th. I subset trends that included mentions of #BlackLives Matter, Police, and Racist.
+
+I created an interactive Treemap using D3 through {d3treeR}, and a searchable datatable to highlight dates with lots of topics around these conversations, and the underlying context for each trend.
+
 <p align="center">
   <img src="https://github.com/imjakedaniels/blm-trends/blob/master/BLM_app_view.gif">
 </p>
-https://imjakedaniels.shinyapps.io/blm_app/
 
+https://github.com/imjakedaniels/blm-trends
 
 ## Animating 2020 daily average gas price in Toronto
 
