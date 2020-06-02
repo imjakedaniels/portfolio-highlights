@@ -1,6 +1,6 @@
 # Jake's Visual Portfolio
 
-Below are some of my past visuals, reports, and projects.
+Below are some of my past visuals, reports, and projects. Note: GitHub doesn't show mp4s so I use gifs; but these are LARGE gifs and can render slowly — excuse that!
 
 ## Scraping & animating a basketball game using {rvest} & {gganimate} 
 
